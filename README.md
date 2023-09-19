@@ -1,7 +1,6 @@
 # jenkins-rest-custom
 
-本项目是基于[jenkins-rest](https://github.com/cdancy/jenkins-rest)修改而来
-主要增加了git凭据相关操作等等
+本项目是基于[jenkins-rest](https://github.com/cdancy/jenkins-rest)修改而来，主要增加了git凭据相关操作等等
 
 ## demo
 
