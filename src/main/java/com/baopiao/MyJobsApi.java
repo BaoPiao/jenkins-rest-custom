@@ -9,10 +9,8 @@ import com.cdancy.jenkins.rest.shaded.javax.inject.Named;
 import com.cdancy.jenkins.rest.shaded.javax.ws.rs.*;
 import com.cdancy.jenkins.rest.shaded.javax.ws.rs.core.MediaType;
 import com.cdancy.jenkins.rest.shaded.org.jclouds.Fallbacks;
-import com.cdancy.jenkins.rest.shaded.org.jclouds.rest.annotations.*;
 import com.cdancy.jenkins.rest.shaded.org.jclouds.javax.annotation.Nullable;
-
-import org.jetbrains.annotations.NotNull;
+import com.cdancy.jenkins.rest.shaded.org.jclouds.rest.annotations.*;
 
 @RequestFilters(MyJenkinsAuthenticationFilter.class)
 @Path("/")
