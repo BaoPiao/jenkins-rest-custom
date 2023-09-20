@@ -97,8 +97,8 @@ public interface MyJobsApi extends JobsApi {
     @POST
     RequestStatus testGitUrl(@Nullable @PathParam("optionalFolderPath")
                              @ParamParser(OptionalFolderPathParser.class) String optionalFolderPath,
-                             @NotNull @PayloadParam("url") String url,
-                             @NotNull @PayloadParam("credentialsId") String credentialsId);
+                              @PayloadParam("url") String url,
+                              @PayloadParam("credentialsId") String credentialsId);
 
 
     @Named("my jobs:create")
